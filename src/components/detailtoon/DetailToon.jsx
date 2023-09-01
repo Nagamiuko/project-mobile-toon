@@ -10,7 +10,7 @@ const DetailToon = () => {
   const id = bookid.get('Book');
   const { bookDetail } = useSelector(state => state.book);
   const dipatch = useDispatch();
-  console.log(bookDetail);
+ 
 
   useEffect(() => {
     dipatch(getBookDetails(id));
