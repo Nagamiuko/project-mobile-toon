@@ -1,0 +1,34 @@
+@import '../main.css';
+.nav{
+   position: relative;
+   top: 1rem;
+   margin-bottom: 2rem;
+   filter: drop-shadow(0 5px 10px rgba(140, 152, 164, 0.5));
+}
+.box-nav{
+   position: relative;
+   padding: 10px;
+   width: 95%;
+   background-color: var(--color-navigator);
+   border-radius: 10px;
+   margin: 0 auto;
+}
+.back{
+   font-size: 20px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   flex-direction: row;
+   margin-left: 1rem;
+   color: var(--color-font-book);
+}
+.back p{
+   position: relative;
+   left: 1rem;
+   width: 80%;
+   font-size: 17px;
+   text-overflow: ellipsis;
+   overflow: hidden;
+   white-space: nowrap;
+   color: var(--color-font-book);
+}

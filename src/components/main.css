@@ -1,0 +1,12 @@
+:root{
+   --color-bg-bar:#d5afff;
+   --color-border-list:#7b00ff;
+   --color-border-box:#ededed;
+   --color-bg-:#f7f7f7;
+   --color-bg-top-ep:#ff6bfd;
+   --color-font-book:#ffffff;
+   --color-navigator:#ff98d1;
+}
+.font20{
+   font-size: 20px;
+}
