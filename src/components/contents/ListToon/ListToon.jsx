@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 const ListToon = () => {
   const navigator = useNavigate()
   const { books } = useSelector(state => state.book);
-  console.log(books);
+
   const Navigate = (dataId) => {
       navigator(`/BookPreview?Book=${dataId._id}`)
   } 
